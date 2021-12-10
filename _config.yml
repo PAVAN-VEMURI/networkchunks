@@ -1,0 +1,13 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "neon"
+locale: "en-US"
+title: "NetworkChunks"
+title_separator: "-"
+subtitle: "by Pavan Vemuri"
+name: "Pavan Vemuri"
+description: "An amazing website."
+url: "https://networkchunks.com"
+baseurl: "/networkchunks"
