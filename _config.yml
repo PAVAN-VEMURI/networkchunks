@@ -1,6 +1,7 @@
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-archives
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "neon"
 locale: "en-US"
@@ -10,4 +11,24 @@ subtitle: "by Pavan Vemuri"
 name: "Pavan Vemuri"
 description: "An amazing website."
 url: "https://networkchunks.com"
-baseurl: "/networkchunks"
+#baseurl: "/networkchunks"
+repository: "PAVAN-VEMURI/networkchunks"
+breadcrumbs: true
+head_scripts:
+  - https://code.jquery.com/jquery-3.2.1.min.js
+
+atom_feed:
+  hide: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
