@@ -3,7 +3,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-archives
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "neon"
+minimal_mistakes_skin: "dark"
 locale: "en-US"
 title: "NetworkChunks"
 title_separator: "-"
@@ -17,7 +17,7 @@ breadcrumbs: true
 search: true
 head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
-
+teaser: "/assets/images/nchunkslogo.png"
 atom_feed:
   hide: true
 

@@ -1,8 +1,5 @@
 ---
 layout: home
-title: "Happy Jekylling!"
+title: "Welcome to NetworkChunks"
 ---
 
-## You're ready to go!
-
-Start developing your Jekyll website.
