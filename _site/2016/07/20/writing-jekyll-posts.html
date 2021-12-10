@@ -109,8 +109,10 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
+          <a class="site-logo" href="/"><img src="/assets/images/nchunkslogo.png" alt="Network Chunks"></a>
+        
         <a class="site-title" href="/">
-          NetworkChunks
+          Network Chunks
           <span class="site-subtitle">by Pavan Vemuri</span>
         </a>
         <ul class="visible-links"></ul>
@@ -395,6 +397,33 @@
 
 
 
+
+
+    <script>
+  'use strict';
+
+  (function () {
+    var commentContainer = document.querySelector('#giscus-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://giscus.app/client.js');
+    script.setAttribute('data-repo', 'pavan-vemuri/networkchunks');
+    script.setAttribute('data-repo-id', 'R_kgDOGgqc3g');
+    script.setAttribute('data-category', 'General');
+    script.setAttribute('data-category-id', 'DIC_kwDOGgqc3s4CAO0z');
+    script.setAttribute('data-mapping', 'pathname');
+    script.setAttribute('data-reactions-enabled', '1');
+    script.setAttribute('data-theme', 'dark');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+  
 
 
 

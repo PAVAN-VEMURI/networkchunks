@@ -32,3 +32,16 @@ defaults:
       comments: true
       share: true
       related: true
+
+logo: "/assets/images/nchunkslogo.png"
+masthead_title: "Network Chunks"
+
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : "R_kgDOGgqc3g"
+    category_name        : "General"
+    category_id          : "DIC_kwDOGgqc3s4CAO0z" # Shown during giscus setup at https://giscus.app
+    discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : '1' # '1' for enabled (default), '0' for disabled
+    theme: "dark"
