@@ -14,6 +14,7 @@ url: "https://networkchunks.com"
 #baseurl: "/networkchunks"
 repository: "PAVAN-VEMURI/networkchunks"
 breadcrumbs: true
+search: true
 head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
 
@@ -45,3 +46,23 @@ comments:
     discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : '1' # '1' for enabled (default), '0' for disabled
     theme: "dark"
+
+author:
+  name     : "Pavan Vemuri"
+  avatar   : "/assets/images/nchunkslogo.png"
+  bio      : "A computer science graduate, tech enthusiast, nature and animal lover. I like to solve problems, learn new
+  things and most importantly I love riding around the world."
+  location : "Somewhere, India"
+  links:
+    - label: "NetworkChunks"
+      icon: "fas fa-fw fa-link"
+      url: "https://networkchunks.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/vpavan318"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/PAVAN-VEMURI"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/edo_tensei_2.0/"
