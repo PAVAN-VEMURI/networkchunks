@@ -15,6 +15,7 @@ url: "https://networkchunks.com"
 repository: "PAVAN-VEMURI/networkchunks"
 breadcrumbs: true
 search: true
+timezone: Asia/Calcutta
 head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
 teaser: "/assets/images/nchunkslogo.png"
@@ -33,6 +34,9 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
+
 
 logo: "/assets/images/nchunkslogo.png"
 masthead_title: "Network Chunks"
