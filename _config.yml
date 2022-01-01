@@ -2,8 +2,23 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+  
+include: ["_pages"]
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "air"
 locale: "en-US"
 title: "NetworkChunks"
 title_separator: "-"
@@ -14,6 +29,7 @@ url: "https://networkchunks.com"
 #baseurl: "/networkchunks"
 repository: "PAVAN-VEMURI/networkchunks"
 breadcrumbs: true
+paginate: 5
 search: true
 timezone: Asia/Calcutta
 head_scripts:
@@ -40,6 +56,12 @@ defaults:
 
 logo: "/assets/images/nchunkslogo.png"
 masthead_title: "Network Chunks"
+
+# Sass/scss
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 
 comments:
   provider: "giscus"
@@ -70,3 +92,13 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/edo_tensei_2.0/"
+
+footer:
+  links:
+    - label: "Paypal"
+      icon: "fab fa-paypal"
+      url: "https://paypal.me/VemuriPavan?country.x=IN&locale.x=en_GB"
+    - label: "BuyMeCoffee"
+      icon: "fas fa-coffee"
+      url: "https://www.buymeacoffee.com/vnJQCsgSY"
+
